@@ -1,12 +1,19 @@
 import Image from "next/image";
 import { skills } from "@/data";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 export const About = () => {
+    useEffect(()=>{
+        Aos.init({
+            duration:1000
+        });
+    },[])
     return (
         <div className="about-me" id="about">
             <h2>ABOUT ME</h2>
             <div className="about-me-content">
-                <div className="about-me-skills">
+                <div className="about-me-skills" data-aos="fade-right">
                     <h2>Skills</h2>
                     {
                         skills.map((val, ind) => {
@@ -29,7 +36,7 @@ export const About = () => {
                         })
                     }
                 </div>
-                <div className="about-me-info">
+                <div className="about-me-info" data-aos="fade-left">
                     <h2>Info</h2>
                     <h1>Creative Independent Web Developer based in USA</h1>
                     <p>

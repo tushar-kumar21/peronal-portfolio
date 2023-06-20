@@ -1,8 +1,16 @@
-import { useRef } from "react";
-
+import { useEffect, useRef } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 export const Main = () => {
     const arr = ["Frontend Web Developer.", "Web Designer.", "Full Stack Developer."];
     const sectionRef = useRef(null);
+
+    useEffect(()=>{        
+            Aos.init({
+                duration:1000,
+                delay:200
+            });        
+    },[])
     
     // const createBubble=()=>{
     //     if(sectionRef.current){
@@ -42,7 +50,7 @@ export const Main = () => {
             </div>
             <div className="bubble-container" ref={sectionRef}>                              
             </div>
-            <img src="assets/developer.png" alt="" />                    
+            <img src="assets/developer.png" alt="" data-aos="fade-up"/>                    
 
         </div>
     )

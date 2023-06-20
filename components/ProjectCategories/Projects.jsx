@@ -1,8 +1,17 @@
 import Image from "next/image"
 import { projectsData } from "@/data"
-import { useState } from "react"
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect, useState } from "react"
 export const Projects = () => {
     const [isActive, setIsActive] = useState(true);
+
+    useEffect(()=>{
+        Aos.init({
+            duration:1000
+        });
+    },[])
+
     return (
         <div className="projects-container" id="portfolio">
             <h2>Projects</h2>
@@ -16,7 +25,7 @@ export const Projects = () => {
                     projectsData.map((data, ind) => {
                         return (
                             isActive ? (
-                                <div className="project" key={ind}>
+                                <div className="project" key={ind} data-aos="fade-right">
                                     <img src={data.img} alt="" />
                                     <div className="projects-details">
                                         <span>{data.name}</span>
