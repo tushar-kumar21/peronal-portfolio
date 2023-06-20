@@ -4,20 +4,20 @@ export const Main = () => {
     const arr = ["Frontend Web Developer.", "Web Designer.", "Full Stack Developer."];
     const sectionRef = useRef(null);
     
-    const createBubble=()=>{
-        if(sectionRef.current){
-        const createElement = document.createElement('div');
-        let size = Math.random()*5;
-        createElement.style.width = 8 + size + 'px';
-        createElement.style.height = 8 + size + 'px';
-        createElement.style.left = Math.random()*innerWidth + 'px';
-        sectionRef.current.appendChild(createElement);
-        setTimeout(()=>{
-            createElement.remove()
-        },5000);    
-    }
-    }
-    setInterval(createBubble,30)
+    // const createBubble=()=>{
+    //     if(sectionRef.current){
+    //     const createElement = document.createElement('div');
+    //     let size = Math.random()*5;
+    //     createElement.style.width = 8 + size + 'px';
+    //     createElement.style.height = 8 + size + 'px';
+    //     createElement.style.left = Math.random()*innerWidth + 'px';
+    //     sectionRef.current.appendChild(createElement);
+    //     setTimeout(()=>{
+    //         createElement.remove()
+    //     },5000);    
+    // }
+    // }
+    // setInterval(createBubble,30)
 
     let c = 0;
     setInterval(()=>{        
