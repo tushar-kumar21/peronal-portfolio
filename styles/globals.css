@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Kanit:wght@700&family=Mea+Culpa&family=Monomaniac+One&family=Noto+Sans&family=Pacifico&family=Poppins&display=swap');
+:root{
+  --bg-color: #022741;
+  --sbg-color:#112e42;
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  box-sizing: border-box;  
+  user-select: none;
+  font-family: 'Philosopher', sans-serif;
+}
