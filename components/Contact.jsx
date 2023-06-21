@@ -36,8 +36,8 @@ export const Contact = () => {
                 </div>
             </div>
           <div className="contact-form">
-            <img src="assets/ud.png" alt="" data-aos="fade-right"/>
-            <div className="form" data-aos="fade-left">
+            <img src="assets/ud.png" alt="" data-aos="zoom-in"/>
+            <div className="form" data-aos="zoom-in">
                 <input type="text" placeholder="Your Name"/>
                 <input type="email" placeholder="Your Email"/>    
                 <input type="text" placeholder="Your Subject"/>

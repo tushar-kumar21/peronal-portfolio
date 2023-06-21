@@ -25,7 +25,7 @@ export const Projects = () => {
                     projectsData.map((data, ind) => {
                         return (
                             isActive ? (
-                                <div className="project" key={ind} data-aos="fade-right">
+                                <div className="project" key={ind} data-aos="zoom-out">
                                     <img src={data.img} alt="" />
                                     <div className="projects-details">
                                         <span>{data.name}</span>
@@ -33,7 +33,7 @@ export const Projects = () => {
                                     </div>
                                 </div>
                             ) : ( data.category === 'favourite' &&
-                                    <div className="project">
+                                    <div className="project" data-aos="zoom-out">
                                         <img src={data.img} alt="" />
                                         <div className="projects-details">
                                             <span>{data.name}</span>

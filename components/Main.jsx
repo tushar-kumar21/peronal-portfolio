@@ -50,8 +50,7 @@ export const Main = () => {
             </div>
             <div className="bubble-container" ref={sectionRef}>                              
             </div>
-            <img src="assets/developer.png" alt="" data-aos="fade-up"/>                    
-
+            <img src="assets/developer.png" alt="" data-aos="zoom-in"/>                    
         </div>
     )
 }

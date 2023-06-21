@@ -13,7 +13,7 @@ export const About = () => {
         <div className="about-me" id="about">
             <h2>ABOUT ME</h2>
             <div className="about-me-content">
-                <div className="about-me-skills" data-aos="fade-right">
+                <div className="about-me-skills" data-aos="zoom-in">
                     <h2>Skills</h2>
                     {
                         skills.map((val, ind) => {
@@ -36,7 +36,7 @@ export const About = () => {
                         })
                     }
                 </div>
-                <div className="about-me-info" data-aos="fade-left">
+                <div className="about-me-info" data-aos="zoom-in">
                     <h2>Info</h2>
                     <h1>Creative Independent Web Developer based in USA</h1>
                     <p>
