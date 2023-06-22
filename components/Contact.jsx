@@ -16,7 +16,7 @@ export const Contact = () => {
             <div className="contact-social">
                 <div className="social-cards" data-aos="fade-down">
                     <Image style={{marginTop:'.5em'}} src={`/assets/linkedin.svg`} height={95} width={95} alt="sdsd" />
-                    <span style={{marginTop:'.5em'}}><a href="https://www.linkedin.com/in/tusharkumar21">Linkedin</a></span>
+                    <span style={{marginTop:'.5em'}}><a href="https://www.linkedin.com/in/tusharkumar21" target="_blank">Linkedin</a></span>
                     <span>Tushar Kumar</span>
                 </div>
                 <div className="social-cards" data-aos="fade-up">
@@ -26,12 +26,12 @@ export const Contact = () => {
                 </div>
                 <div className="social-cards" data-aos="fade-down">
                     <Image src={`/assets/fb.svg`} height={110} width={110} alt="sdsd" />
-                    <span><a href="https://www.facebook.com/tusharfb21">Facebook</a></span>
+                    <span><a href="https://www.facebook.com/tusharfb21" target="_blank">Facebook</a></span>
                     <span>Tushar kumar</span>
                 </div>
                 <div className="social-cards" data-aos="fade-up">
                     <Image src={`/assets/portfolio.svg`} height={110} width={110} alt="sdsd" />
-                    <span><a href="https://tk4portfolio.vercel.app">Portfolio</a></span>
+                    <span><a href="https://tk4portfolio.vercel.app" target="_blank">Portfolio</a></span>
                     <span ><a style={{ color: '#3e64ff', WebkitTextStroke: '.2px', fontSize: '1rem' }} href="https://tk4portfolio.vercel.app">tk4portfolio.vercel.app</a></span>
                 </div>
             </div>
