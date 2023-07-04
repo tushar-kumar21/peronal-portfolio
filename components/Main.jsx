@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+
 export const Main = () => {
     const arr = ["Frontend Web Developer.", "Web Designer.", "Full Stack Developer."];
     const sectionRef = useRef(null);
@@ -37,6 +38,7 @@ export const Main = () => {
     },3000)
 
     return (
+        
         <div className="main" id="main">
             <div className="main-info">
                 <h1 className="heading">TUSHAR</h1>
@@ -44,9 +46,11 @@ export const Main = () => {
                     <span>Frontend Developer.</span>
                 </div>
                 <h3>from New Delhi, Delhi, India</h3>
+                <a href="https://drive.google.com/file/d/13DfM-1epgrJ0dCgepoJglEO3N-MpFckI/view?usp=drive_link" download className="portfolio-button">
                 <div className="see-portfolio">
-                    <span><a href="#portfolio">SEE PORTFOLIO</a></span>
+                    <span>SEE CV</span>
                 </div>
+                </a>
             </div>
             <div className="bubble-container" ref={sectionRef}>                              
             </div>
