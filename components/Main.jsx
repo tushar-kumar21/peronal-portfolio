@@ -46,7 +46,7 @@ export const Main = () => {
                     <span>Frontend Developer.</span>
                 </div>
                 <h3>from New Delhi, Delhi, India</h3>
-                <a href="https://drive.google.com/file/d/13DfM-1epgrJ0dCgepoJglEO3N-MpFckI/view?usp=drive_link" download className="portfolio-button">
+                <a href="https://drive.google.com/file/d/1BPIswv-KGdHft2R__Av4NunmiHUBCV4S/view?usp=drive_link" download className="portfolio-button" target="_blank">
                 <div className="see-portfolio">
                     <span>SEE CV</span>
                 </div>
