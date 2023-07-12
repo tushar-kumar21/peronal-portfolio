@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ParticlesBackground from "./ParticlesBackground";
 
 export const Main = () => {
     const arr = ["Frontend Web Developer.", "Web Designer.", "Full Stack Developer."];
@@ -9,7 +10,7 @@ export const Main = () => {
     useEffect(()=>{        
             Aos.init({
                 duration:1000,
-                delay:200
+                delay:150
             });        
     },[])
     
@@ -38,8 +39,11 @@ export const Main = () => {
     },3000)
 
     return (
-        
+        <>
         <div className="main" id="main">
+            <div className="par">
+            <ParticlesBackground/>
+            </div>
             <div className="main-info">
                 <h1 className="heading">TUSHAR</h1>
                 <div className="profession">
@@ -51,10 +55,9 @@ export const Main = () => {
                     <span>SEE CV</span>
                 </div>
                 </a>
-            </div>
-            <div className="bubble-container" ref={sectionRef}>                              
-            </div>
-            <img src="assets/developer.png" alt="" data-aos="zoom-in"/>                    
+            </div>            
+            <img src="assets/developer.png" alt="" data-aos="zoom-in"/>                                
         </div>
+        </>
     )
 }

@@ -11,7 +11,7 @@ export const Contact = () => {
     },[])
     return (
         <div className="contact-container" id="contact">
-            <h2>Contact Me</h2>
+            <h2 className="title">Contact Me</h2>
             <p>Ready to take the next step? Reach out to me today and let's discuss how I can contribute my skills and expertise to your team. Together, we can achieve remarkable results!</p>
             <div className="contact-social">
                 <div className="social-cards" data-aos="fade-down">

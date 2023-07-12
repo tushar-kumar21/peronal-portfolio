@@ -12,7 +12,7 @@ export const skills = [
     {
         name: "Nextjs",
         percentage: 50,
-        bg: "#000"
+        bg: "#fff"
     },
     {
         name: "HTML",
@@ -51,32 +51,32 @@ export const skills = [
     },
 ]
 
-export const projectsData = [
-    {
-        img: "https://firebasestorage.googleapis.com/v0/b/newcapp-38895.appspot.com/o/Screenshot%202023-06-17%20134156.png?alt=media&token=7050853a-7f94-457e-b30f-ae3463b00c36",
-        name: "Tk4hotstar",
-        link: 'https://tk4hotstar.vercel.app',
-        category: 'favourite'
-    },
-    {
-        img: "https://firebasestorage.googleapis.com/v0/b/newcapp-38895.appspot.com/o/Screenshot%202023-06-17%20132813.png?alt=media&token=d26ec14d-a41f-4bdf-b044-7a6cbaf1eb43",
-        name: "Social-Media-App (tK4SoCiAl)",
-        link: 'https://tk4social.vercel.app',
-        category: 'favourite'
-    },
-    {
-        img: "https://firebasestorage.googleapis.com/v0/b/newcapp-38895.appspot.com/o/Screenshot%202023-06-17%20135612.png?alt=media&token=f237c46a-4cf2-49d4-a8ec-9e44650ee456",
-        name: "Wall-Breaker-Game",
-        link: 'https://tk4wallbreaker.vercel.app',
-        category: 'all'
-    },
-    {
-        img: "https://firebasestorage.googleapis.com/v0/b/newcapp-38895.appspot.com/o/Screenshot%202023-06-17%20140020.png?alt=media&token=dbcc80e5-0d80-4078-b4bb-72dead852c36",
-        name: "Hangman-Game",
-        link: 'https://tk4hangman.vercel.app',
-        category: 'all'
-    }
-]
+// export const projectsData = [
+//     {
+//         img: "https://firebasestorage.googleapis.com/v0/b/newcapp-38895.appspot.com/o/Screenshot%202023-06-17%20134156.png?alt=media&token=7050853a-7f94-457e-b30f-ae3463b00c36",
+//         name: "Tk4hotstar",
+//         link: 'https://tk4hotstar.vercel.app',
+//         category: 'favourite'
+//     },
+//     {
+//         img: ,
+//         name: "Social-Media-App (tK4SoCiAl)",
+//         link: 'https://tk4social.vercel.app',
+//         category: 'favourite'
+//     },
+//     {
+//         img: "https://firebasestorage.googleapis.com/v0/b/newcapp-38895.appspot.com/o/Screenshot%202023-06-17%20135612.png?alt=media&token=f237c46a-4cf2-49d4-a8ec-9e44650ee456",
+//         name: "Wall-Breaker-Game",
+//         link: 'https://tk4wallbreaker.vercel.app',
+//         category: 'all'
+//     },
+//     {
+//         img: "https://firebasestorage.googleapis.com/v0/b/newcapp-38895.appspot.com/o/Screenshot%202023-06-17%20140020.png?alt=media&token=dbcc80e5-0d80-4078-b4bb-72dead852c36",
+//         name: "Hangman-Game",
+//         link: 'https://tk4hangman.vercel.app',
+//         category: 'all'
+//     }
+// ]
 
 export const navItems = [
     {
